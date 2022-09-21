@@ -127,12 +127,12 @@ nav ul li a:hover {
 
 #contact {
     position: absolute;
-    top: 3000px;
+    top: 2750px;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 0 40px;
-    background: #f3f3f3;
+    background: #dad8d8;
 }
 
 #footer {
@@ -144,5 +144,5 @@ nav ul li a:hover {
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 0 40px;
-    background: #f3f3f3;
+    background: #ccc9c9;
 }
