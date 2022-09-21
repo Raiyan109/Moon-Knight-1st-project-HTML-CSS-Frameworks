@@ -76,12 +76,23 @@ nav ul li a:hover {
 }
 
 .content p {
-    line-height: 1.5;
-    margin: auto;
+    /* line-height: 1.5; */
+    /* margin: auto; */
     color: #000;
 }
 
-#about .content h1 {
+.content h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #262626;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#about .content h1,
+#portfolio .content h1,
+#services .content h1,
+#contact .content h1 {
     color: #5b5b5b;
 }
 
@@ -94,12 +105,32 @@ nav ul li a:hover {
     padding: 0 40px;
 }
 
+#portfolio {
+    position: absolute;
+    top: 1900px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 40px;
+    background: #f3f3f3;
+}
 
+#services {
+    position: absolute;
+    top: 2500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 40px;
+    background: #f3f3f3;
+}
 
-.content h1 {
-    font-size: 70px;
-    font-weight: bold;
-    color: #262626;
-    text-transform: uppercase;
-    margin-bottom: 40px;
+#contact {
+    position: absolute;
+    top: 3100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 40px;
+    background: #f3f3f3;
 }
